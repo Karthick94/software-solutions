@@ -1,0 +1,77 @@
+@import 'config';
+
+.container {
+    max-width: $website-width;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.bg-main {
+    background: $main-color;
+}
+
+.bg-light {
+    background: $light-color;
+}
+
+.bg-medium {
+    background: $medium-color;
+}
+
+.bg-dark {
+    background: $dark-color;
+}
+
+.lead {
+    font-size: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+
+.b {
+    font-weight: bold;
+}
+
+button[class^='btn-'],
+a[class^='btn-'],
+input[class^='btn-'] {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: $dark-color;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+    background: $main-color;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+.py-3 {
+    padding: 3rem 0;
+}
+.py-4 {
+    padding: 4rem 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
